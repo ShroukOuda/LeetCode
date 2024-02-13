@@ -5,8 +5,10 @@ public:
             return 1.0;
         if (n > 0) 
         {
-            double halfPow = myPow(x, n / 2);
-            return (n % 2 == 0) ? halfPow * halfPow : x * halfPow * halfPow;
+            double half = myPow(x, n / 2);
+            if (n % 2 == 0)
+                return half * half;
+            return x * half * half;
         } 
         else 
         { 
