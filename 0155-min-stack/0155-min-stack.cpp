@@ -1,5 +1,3 @@
-#include <stack>
-
 class MinStack {
 public:
     stack<int> stk;
