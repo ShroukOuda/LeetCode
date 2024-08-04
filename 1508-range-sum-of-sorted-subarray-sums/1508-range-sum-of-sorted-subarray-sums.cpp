@@ -1,6 +1,7 @@
 class Solution {
 public:
     int rangeSum(vector<int>& nums, int n, int left, int right) {
+        cin.sync_with_stdio(0); cin.tie(0); cout.tie(0);
         vector<long long> new_array;
         for (int i = 0; i < n; i++) {
             long long pre_sum = 0;
