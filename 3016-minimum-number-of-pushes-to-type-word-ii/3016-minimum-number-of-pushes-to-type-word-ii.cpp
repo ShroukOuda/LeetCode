@@ -1,6 +1,7 @@
 class Solution {
 public:
     int minimumPushes(const std::string &word) {
+        cin.sync_with_stdio(0); cin.tie(0); cout.tie(0);
         vector<int> vec(26);
         for (auto c : word)
             vec[c - 'a']++;
