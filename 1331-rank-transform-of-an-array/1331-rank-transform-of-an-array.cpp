@@ -12,9 +12,9 @@ public:
             value = rank++;
         }
         vector<int> res;
-        for (int i = 0; i < arr.size(); i++)
+        for (int ele:arr)
         {
-            res.push_back(mp[arr[i]]);
+            res.push_back(mp[ele]);
         }
         return res;
     }
