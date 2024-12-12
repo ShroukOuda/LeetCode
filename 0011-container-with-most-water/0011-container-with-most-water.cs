@@ -3,7 +3,7 @@ public class Solution {
         int area = 0;
         int l = 0;
         int r = height.Length - 1;
-        for (int i = 0; i < height.Length; i++)
+        while (l < r)
         {   
             area = Math.Max(area, (r - l) * Math.Min(height[l], height[r]));
             if (height[r] <= height[l])
