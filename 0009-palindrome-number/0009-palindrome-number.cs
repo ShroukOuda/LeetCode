@@ -1,11 +1,13 @@
 public class Solution {
     public bool IsPalindrome(int x) {
-        string s = x.ToString();
-        for (int i = 0; i < s.Length / 2; i++)
+        if (x < 0 || (x % 10 == 0 && x != 0))
+            return false;
+        int r = 0;
+        while (x > r)
         {
-            if (s[i] != s[s.Length - i - 1])
-                return false;
+            r = r * 10 + x % 10;
+            x /= 10;
         }
-        return true;
+        return x == r || x == r / 10;
     }
 }
