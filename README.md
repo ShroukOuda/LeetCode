@@ -15,4 +15,8 @@
 |  |
 | ------- |
 | [0009-palindrome-number](https://github.com/ShroukOuda/LeetCode/tree/master/0009-palindrome-number) |
+## String
+|  |
+| ------- |
+| [3617-find-the-original-typed-string-i](https://github.com/ShroukOuda/LeetCode/tree/master/3617-find-the-original-typed-string-i) |
 <!---LeetCode Topics End-->
